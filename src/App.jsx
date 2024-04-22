@@ -16,6 +16,7 @@ function App() {
       const handleSubmit=()=>{
         if (email.length > 0 && pass.length > 0){
           addUser(email , pass  , battery)
+          // adduserka waa inaa sugtaa inta uu result kaa siinaayo  tusaale adduser().await()  //  waiting 
         }
         setEmail('')
         setPass('')
